@@ -7,7 +7,11 @@ virginie mukantwari
 
 
 ## Technology used
-
+html
+css 
+Angular
+Javascript 
+ Bootstrap
 
 ## Contact information
 virgm2020@gmail.com 
