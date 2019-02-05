@@ -10,6 +10,9 @@ virginie mukantwari
 
 
 ## Contact information
+virgm2020@gmail.com 
+0786679517
+
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
