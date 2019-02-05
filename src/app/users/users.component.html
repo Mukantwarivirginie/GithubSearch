@@ -1,13 +1,19 @@
-<p>
-  users works!
-</p>
+<p></p>
 <h1>My Data</h1>
 <div class="container">
 
     <div class="row">
         <blockquote class="text-center text-lg">
+          
             <p>{{user.followers}}</p>
-            <footer><cite>{{user.following}} <br> {{user.public_repos}} <br> {{user.location}} <br> {{user. html_url}} <br> <img src="https://avatars3.githubusercontent.com/u/439365?v=4" > <br> {{user.login}}</cite></footer>
+            <br><br>
+            <p>{{user.following}}</p>
+            <p>{{user. public_repos}}</p>
+            <p>{{user.location}}</p>
+            <p>{{user.html_url}}</p>
+            <p>{{user.login}}</p>
+            <img src="{{user.avatar_url}}">
+            <!-- <footer><cite>{{user.following}} <br> {{user.public_repos}} <br> {{user.location}} <br> {{user. html_url}}  <br> {{user.login}}</cite_</footer> -->
         </blockquote>
     </div>
   </div>
