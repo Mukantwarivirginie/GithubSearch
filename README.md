@@ -1,6 +1,6 @@
 # GithubSearch
 
-# Autor name
+## Author name
 virginie mukantwari
 
 ## Description
