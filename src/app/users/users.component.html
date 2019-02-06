@@ -1,7 +1,15 @@
 <p></p>
 <h1>My Data</h1>
 <div class="container">
+    
+    <div class="form-group">
 
+        <label for="name">Search</label>
+        <input type="search" placeholder="userName" [(ngModel)]="userName" name="name">
+        <button class="btn btn-primary" type="submit" (click)='submit()'>Search</button>
+
+    </div> 
+          
     <div class="row">
         <blockquote class="text-center text-lg">
           

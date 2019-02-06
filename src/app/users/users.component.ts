@@ -12,13 +12,16 @@ import {ServiceRequestService} from '../user-http/service-request.service';
 
 export class UsersComponent implements OnInit {
   user:User;
+  userName=''
   constructor(private userService:ServiceRequestService) {
     // this.user = new User(0,0,0,"","","","");
   }
   
-   
+  submit(){
+    this.userService.userRequest(this.userName)
+  }
   ngOnInit() {
-    this.userService.userRequest()
+    this.userService.userRequest('mukantwarivirginie')
     this.user=this.userService.user
   }
 
