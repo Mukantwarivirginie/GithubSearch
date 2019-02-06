@@ -1,27 +1,28 @@
-<p></p>
-<h1>My Data</h1>
+
+<h1>Data to Github</h1>
+
 <div class="container">
     
     <div class="form-group">
 
-        <label for="name">Search</label>
+        <label for="name"></label>
         <input type="search" placeholder="userName" [(ngModel)]="userName" name="name">
         <button class="btn btn-primary" type="submit" (click)='submit()'>Search</button>
-
+        <p>Type your Username to view Github users</p>
     </div> 
           
     <div class="row">
         <blockquote class="text-center text-lg">
-          
-            <p>{{user.followers}}</p>
-            <br><br>
-            <p>{{user.following}}</p>
-            <p>{{user. public_repos}}</p>
-            <p>{{user.location}}</p>
-            <p>{{user.html_url}}</p>
-            <p>{{user.login}}</p>
             <img src="{{user.avatar_url}}">
+            <p>followers:  {{user.followers}}</p>
+            <p>following:  {{user.following}}</p>
+            <p>repository:  {{user. public_repos}}</p>
+           <!--{{user.location}}</p>
+            <p>{{user.html_url}}</p>
+            <p>{{user.login}}</p>--> <p>
+            
             <!-- <footer><cite>{{user.following}} <br> {{user.public_repos}} <br> {{user.location}} <br> {{user. html_url}}  <br> {{user.login}}</cite_</footer> -->
         </blockquote>
+        <h1>Thank you</h1>
     </div>
   </div>
