@@ -26,7 +26,7 @@ userRequest(userName){
 
    }
 let promise =new Promise((resolve,reject)=>{
-    this.http.get<ApiResponse>('https://api.github.com/users/' + userSearch).toPromise().then(response=>{
+    this.http.get<ApiResponse>('https://api.github.com/users/' + userSearch + '?access_token=5b3fb8ab4b85dbc4f9e7cd253398945250496d99').toPromise().then(response=>{
         
         this.user.followers=response.followers
         this.user.following=response.following
