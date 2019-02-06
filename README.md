@@ -1,10 +1,10 @@
 # GithubSearch
 
 ## Author name
-virginie mukantwari
+Virginie mukantwari
 
 ## Description
- To Creating Personal Access Tokens and create a HTTP servic
+ To Creating Personal Access Token and create a HTTP servic
 
 
 ## Technology used
