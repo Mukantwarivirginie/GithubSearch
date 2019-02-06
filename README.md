@@ -14,8 +14,8 @@ Angular
 Javascript 
  Bootstrap
 
-## Contact information
-virgm2020@gmail.com 
+## contact information
+virgm2020@gmail.com
 0786679517
 
 ## link to live site on GitHub Pages
